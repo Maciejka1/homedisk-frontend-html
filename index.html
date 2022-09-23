@@ -21,7 +21,7 @@
                 <h1 class="md:ml-2 text-lg">HomeDisk</h1>
             </a>
         <ul class="flex flex-col gap-5 font-semibold text-lg md:flex-row">
-            <a href="/">
+            <a href="index.html">
                 <li>Home</li>
             </a>
             <a href="dashboard.html">
@@ -35,8 +35,53 @@
             <i class="fa-sharp fa-solid fa-xmark"></i>
         </div>
     </nav>
-    <div>
-        aaa
+    <div class="min-h-[95vh]">
+        <div class="h-[80vh] pt-20 w-screen flex flex-wrap items-center justify-center gap-10 px-2">
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-5xl sm:text-6xl md:text-8xl text-[#ff3c83]">
+                    Welcome to <br/> HomeDisk!
+                </h1>
+                <p>
+                    HomeDisk is an <span class="font-bold">extremely</span> fast and <span class="font-bold">lightweight</span> local cloud for your data written in rust
+                </p>
+            </div>
+            <div className="flex flex-col gap-5">
+                <!-- <a className="border-[1px] border-[#51b74f] rounded-xl p-16" href="dashboard.html">
+                    <div className="flex flex-col gap-0 hover:gap-2">
+                        <p className="font-bold flex items-center gap-2 hover:gap-4 text-xl">Dashboard <FaArrowRight/></p>
+                        <p>Manage your storage</p>
+                    </div>
+                </a> -->
+                <a href="register.html">
+                    <div class="border-[1px] border-[#51b74f] rounded-xl p-16 flex flex-col gap-0 hover:gap-2">
+                        <p class="font-bold flex items-center gap-2 hover:gap-4 text-xl">
+                            Register <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                        <p>Register a new account</p>
+                    </div>
+                </a>
+                <a href="config.html">
+                    <div class="border-[1px] border-sky-700 rounded-xl p-16 flex flex-col gap-0 hover:gap-2">
+                        <p class="font-bold flex items-center gap-2 hover:gap-4 text-xl">
+                            Config <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                        <p>Configure ports</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center mb-2 text-center border-t-[1px] border-[#444]">
+        <p>Design of frontend by
+            <a href="https://maciejka.vercel.app" class="underline">
+                Maciejka
+            </a>
+        </p>
+        <p>Backend & frontend backend connection written by
+            <a href="https://medzik.xyz" class="underline">
+                Medzik
+            </a>
+        </p>
     </div>
     <script type="text/javascript" src="index.js"></script>
 </body>
