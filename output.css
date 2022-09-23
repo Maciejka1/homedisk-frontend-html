@@ -559,6 +559,18 @@ video {
   right: 0px;
 }
 
+.right-\[100\%\] {
+  right: 100%;
+}
+
+.left-\[100\%\] {
+  left: 100%;
+}
+
+.right-\[-100\%\] {
+  right: -100%;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -675,6 +687,10 @@ button:hover{
 @media (min-width: 768px) {
   .md\:left-0 {
     left: 0px;
+  }
+
+  .md\:left-\[100\%\] {
+    left: 100%;
   }
 
   .md\:ml-2 {
